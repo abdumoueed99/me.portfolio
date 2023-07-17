@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 30);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(154, 154, 227);
+            font-size: 1.4rem;
+
+        }
+
+        main hr {
+            background-color: blueviolet;
+            margin: 40px 84px;
+            height: 1.2px;
+            border: 0px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstsection>div {
+
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+        .leftsection .button{
+            padding: 23px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(49, 22, 75);
+            color: white;
+            border: 2px solid white;
+            border-radius: 13px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+   
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: blueviolet;
+            font-size: 2.5rem;
+            font-style: oblique;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+            font-family: 'Arial Narrow Bold', sans-serif;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: blueviolet;
+            margin: 0 100px;
+        }
+
+        .img-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            font-size: 9px;
+            width: 150px;
+            top: 86px;
+            color: gray;
+        }
+
+        footer {
+            background-color: rgb(17, 17, 76);
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-first h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .footer-second li {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">ME Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Services </a></li>
+                    <li><a href="#">Projects </a></li>
+                    <li><a href="#">contact us </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection"> Hi, am <span class="purple">Khawaja</span>
+                <div> I am the Passionate</div>
+
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+
+            </div>
+
+            <div class="rightsection">
+                <img src="bg.png" alt="Error">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1> Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="dev.png" alt="Error">
+                    <div class="vertical-title">Graphics Designer (2020-2021)</div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis ipsam culpa ducimus aperiam commodi reiciendis dolor placeat,
+                        quo deserunt corrupti,
+                        itaque obcaecati illum omnis temporibus unde maiores facilis corporis. Aut.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.png" alt="Error">
+                    <div class="vertical-title">Frontend Developer (2022-2023)</div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis ipsam culpa ducimus aperiam commodi reiciendis dolor placeat,
+                        quo deserunt corrupti,
+                        itaque obcaecati illum omnis temporibus unde maiores facilis corporis. Aut.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.png" alt="Error">
+                    <div class="vertical-title">Backend Developer (2022-2023)</div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis ipsam culpa ducimus aperiam commodi reiciendis dolor placeat,
+                        quo deserunt corrupti,
+                        itaque obcaecati illum omnis temporibus unde maiores facilis corporis. Aut.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dev.png" alt="Error">
+                    <div class="vertical-title">Python (2021-2022)</div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis ipsam culpa ducimus aperiam commodi reiciendis dolor placeat,
+                        quo deserunt corrupti,
+                        itaque obcaecati illum omnis temporibus unde maiores facilis corporis. Aut.
+                    </div>
+                </div>
+        
+                <div class="vertical">
+                    <img class="img-top" src="dev.png" alt="Error">
+                    <div class="vertical-title">React,Node Js Developer (2022-2023)</div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis ipsam culpa ducimus aperiam commodi reiciendis dolor placeat,
+                        quo deserunt corrupti,
+                        itaque obcaecati illum omnis temporibus unde maiores facilis corporis. Aut.
+                    </div>
+                </div>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Khawaja's Groups of Developers</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebok</li>
+                    <li>Twitter</li>
+                    <li>Whatapps</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; Graphics Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
